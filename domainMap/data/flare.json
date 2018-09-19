@@ -1,59 +1,40 @@
 {
- "name": "Where MFADT would love to work",
+ "name": "Thesis Domain Map",
  "children": [
   {
-   "name": "Independent", "size": 70000 
-  },
-  {
-   "name": "Technology & Social Media",
+   "name": "Smart Cities",
    "children": [
-      {"name": "Twitter", "size": 10000},
-      {"name": "Google", "size": 50000},
-      {"name": "Amazon", "size": 10000}
-   ]
-  },
-  {
-   "name": "Media & Journalism",
-   "children": [
-    {"name": "The New York Times", "size": 10000},
-    {"name": "Viacom", "size": 10000}
+      {"name": "Twitter",
+      "children": [
+      {"name": "Twitter", "size": 1000},
+      {"name": "Google", "size": 5000},
+      {"name": "Amazon", "size": 1000}
+      ] 
+      },
+      {"name": "Google", "size": 5000},
+      {"name": "Amazon", "size": 1000}
    ]
   },
   {
    "name": "Architecture, Art & Design Studios",
    "children": [
-    {"name": "IDEO", "size": 20000},
-    {"name": "Hypersonic", "size": 10000},
-    {"name": "Frog Design", "size": 30000},
-    {"name": "Potion", "size": 10000},
-    {"name": "ESI Design", "size": 10000},
+    {"name": "IDEO", "size": 2000},
+    {"name": "Hypersonic", "size": 1000},
+    {"name": "Frog Design", "size": 3000},
+    {"name": "Potion", "size": 1000},
+    {"name": "ESI Design", "size": 1000},
 	{"name": "teamLab", "size": 8833},
-    {"name": "Yuco Lab", "size": 10000}
+    {"name": "Yuco Lab", "size": 1000}
    ]
   },
   {
    "name": "Museums and Educational Institutions",
    "children": [
-    {"name": "Holocaust Museum", "size": 10000},
-	{"name": "Whitney Museum", "size": 10000},
-	{"name": "MIT", "size": 20000},
-    {"name": "Parsons", "size": 10000}
+    {"name": "Holocaust Museum", "size": 1000},
+	{"name": "Whitney Museum", "size": 1000},
+	{"name": "MIT", "size": 2000},
+    {"name": "Parsons", "size": 1000}
    ]
-  },
-  {
-   "name": "Government & Non-Profit Organizations",
-   "children": [
-    {"name": "Mozilla Foundation", "size": 10000},
-    {"name": "Eyebeam", "size": 10000}
-   ]
-  },
-    {
-     "name": "Consumer",
-     "children": [
-      {"name": "Voodoo Manufacturing", "size": 10000},
-      {"name": "HungerPass", "size": 10000},
-      {"name": "Dropmodel", "size": 10000}
-     ]
-    }
+  }
  ]
 }
