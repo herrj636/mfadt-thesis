@@ -4,12 +4,17 @@
   {
    "name": "Smart Cities",
    "children": [
-      {"name": "Systems","children": [
-        {"name": "AI and Machine Learning", "size": 10},
+      {"name": "Systems", "children": [
+        {"name": "AI and Machine Learning", "children": [
+          {"name": "AI and Machine Learning", "size": 10},
+          {"name": "Policy", "size": 10},
+          {"name": "Ethical Development", "size": 10},
+          {"name": "Current Use", "size": 10}
+      ]},
         {"name": "Cybersecurity", "size": 10},
         {"name": "Intermodal Transportation", "size": 10},
         {"name": "City Infrastructure", "size": 10},
-		{"name": "Telecommunications", "size": 10}
+		    {"name": "Telecommunications", "size": 10}
       ]},
       {"name": "People", "children": [
         {"name": "Visitors", "size": 10},
@@ -24,7 +29,13 @@
           {"name": "Officials", "size": 10}
       ]}
       ]},
-      {"name": "Urban Interaction Design", "size": 10},
+      {"name": "Urban Interaction Design", "children": [
+          {"name": "Government Websites", "size": 10},
+          {"name": "Social Media", "size": 10},
+          {"name": "Smart Streets", "size": 10},
+          {"name": "Bicycles", "size": 10},
+          {"name": "Human Computer Interactions", "size": 10}
+      ]},
       {"name": "Urban Planning", "size": 10}
    ]
   },
