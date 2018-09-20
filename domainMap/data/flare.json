@@ -8,7 +8,8 @@
         {"name": "AI and Machine Learning", "size": 10},
         {"name": "Cybersecurity", "size": 10},
         {"name": "Intermodal Transportation", "size": 10},
-        {"name": "Systems", "size": 10}
+        {"name": "City Infrastructure", "size": 10},
+		{"name": "Telecommunications", "size": 10}
       ]},
       {"name": "People", "children": [
         {"name": "Visitors", "size": 10},
@@ -37,7 +38,8 @@
     {"name": "Circular Economies", "size": 10},
 	  {"name": "Accelerators", "size": 10},
 	  {"name": "Grants", "size": 10},
-    {"name": "Venture Capital", "size": 10}
+      {"name": "Venture Capital", "size": 10},
+	  {"name": "Creative Spaces", "size": 10}
    ]
   }
  ]
