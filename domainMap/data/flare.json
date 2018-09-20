@@ -14,7 +14,13 @@
       {"name": "People", "children": [
         {"name": "Visitors", "size": 10},
         {"name": "Residents", "children": [
-          {"name": "Civilians", "size": 10},
+          {"name": "Civilians", "children": [
+            {"name": "Neighborhoods", "size": 10},
+            {"name": "Non-profit organizations", "size": 10},
+            {"name": "Invest in Bogota", "size": 10},
+            {"name": "Bogota Como Vamos", "size": 10},
+            {"name": "Code for America", "size": 10}
+      ]},
           {"name": "Officials", "size": 10}
       ]}
       ]},
@@ -25,20 +31,27 @@
   {
    "name": "Data",
    "children": [
-    {"name": "Algorithms", "size": 20},
-    {"name": "Open Data", "size": 20},
-    {"name": "Government Data", "size": 20},
-    {"name": "Social Media", "size": 20},
-    {"name": "Privacy Policy", "size": 20}
+    {"name": "Algorithms", "size": 10},
+    {"name": "Open Data", "size": 10},
+    {"name": "Government Data", "size": 10},
+    {"name": "People-generated data", "size": 10},
+    {"name": "Social Media", "size": 10},
+    {"name": "Sensors", "size": 10},
+    {"name": "Privacy Policy", "size": 10},
+    {"name": "Data Visualizations", "size": 10}
    ]
   },
   {
    "name": "Sustainable Entrepreneurship",
    "children": [
     {"name": "Circular Economies", "size": 10},
-	  {"name": "Accelerators", "size": 10},
+	  {"name": "Accelerators", 
+      "children": [
+      {"name": "UrbanX", "size": 10},
+      {"name": "Wayra", "size": 10}
+   ]},
 	  {"name": "Grants", "size": 10},
-      {"name": "Venture Capital", "size": 10},
+    {"name": "Venture Capital", "size": 10},
 	  {"name": "Creative Spaces", "size": 10}
    ]
   }
