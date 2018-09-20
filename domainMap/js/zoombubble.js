@@ -1,7 +1,8 @@
 var svg = d3.select("svg"),
     margin = 20,
-    diameter = +svg.attr("width"),
-    g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+    width = +svg.attr("width"),
+    height = +svg.attr("height"),
+    g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 var color = d3.scaleLinear()
     .domain([-1, 5])
@@ -9,7 +10,7 @@ var color = d3.scaleLinear()
     .interpolate(d3.interpolateHcl);
 
 var pack = d3.pack()
-    .size([diameter - margin, diameter - margin])
+    .size([width - margin, height - margin])
     .padding(2);
 
 d3.json("data/flare.json", function(error, root) {
@@ -64,7 +65,7 @@ d3.json("data/flare.json", function(error, root) {
   }
 
   function zoomTo(v) {
-    var k = diameter / v[2]; view = v;
+    var k = height / v[2]; view = v;
     node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
     circle.attr("r", function(d) { return d.r * k; });
   }

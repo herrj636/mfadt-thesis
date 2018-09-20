@@ -4,36 +4,40 @@
   {
    "name": "Smart Cities",
    "children": [
-      {"name": "Twitter",
-      "children": [
-      {"name": "Twitter", "size": 1000},
-      {"name": "Google", "size": 5000},
-      {"name": "Amazon", "size": 1000}
-      ] 
-      },
-      {"name": "Google", "size": 5000},
-      {"name": "Amazon", "size": 1000}
+      {"name": "Systems","children": [
+        {"name": "AI and Machine Learning", "size": 10},
+        {"name": "Cybersecurity", "size": 10},
+        {"name": "Intermodal Transportation", "size": 10},
+        {"name": "Systems", "size": 10}
+      ]},
+      {"name": "People", "children": [
+        {"name": "Visitors", "size": 10},
+        {"name": "Residents", "children": [
+          {"name": "Civilians", "size": 10},
+          {"name": "Officials", "size": 10}
+      ]}
+      ]},
+      {"name": "Urban Interaction Design", "size": 10},
+      {"name": "Urban Planning", "size": 10}
    ]
   },
   {
-   "name": "Architecture, Art & Design Studios",
+   "name": "Data",
    "children": [
-    {"name": "IDEO", "size": 2000},
-    {"name": "Hypersonic", "size": 1000},
-    {"name": "Frog Design", "size": 3000},
-    {"name": "Potion", "size": 1000},
-    {"name": "ESI Design", "size": 1000},
-	{"name": "teamLab", "size": 8833},
-    {"name": "Yuco Lab", "size": 1000}
+    {"name": "Algorithms", "size": 20},
+    {"name": "Open Data", "size": 20},
+    {"name": "Government Data", "size": 20},
+    {"name": "Social Media", "size": 20},
+    {"name": "Privacy Policy", "size": 20}
    ]
   },
   {
-   "name": "Museums and Educational Institutions",
+   "name": "Sustainable Entrepreneurship",
    "children": [
-    {"name": "Holocaust Museum", "size": 1000},
-	{"name": "Whitney Museum", "size": 1000},
-	{"name": "MIT", "size": 2000},
-    {"name": "Parsons", "size": 1000}
+    {"name": "Circular Economies", "size": 10},
+	  {"name": "Accelerators", "size": 10},
+	  {"name": "Grants", "size": 10},
+    {"name": "Venture Capital", "size": 10}
    ]
   }
  ]
